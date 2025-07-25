@@ -1,0 +1,133 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+html,
+body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato",sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.pimg1{
+    background-image: url(image1.png);
+    min-height: 100%;
+}
+.pimg1, .pimg2, .pimg3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.text1{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size:27px ;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: white;
+}
+.bg1{
+    background-color: rgba(0, 0, 0, 0.778);
+    border-radius: 5px;
+    padding:20px;
+    line-height: 60px;
+}
+
+.section1{
+    text-align: center;
+    padding: 50px 80px;
+}
+.section1 h1{
+    font-size: 27px;
+    color: gray;
+    text-transform: uppercase;
+}
+
+
+.pimg2{
+    background-image: url(image2.png);    
+    min-height: 500px;
+}
+.text2{
+    text-transform: uppercase;
+    color: white;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+.bg2{
+    font-size: 40px;
+    font-weight: 400;
+    background-color:rgb(0, 0, 0,.4);
+    padding: 20px;
+    line-height: 60px;
+    border-radius: 5px;
+}
+
+.section2{
+    text-align: center;
+    padding: 50px 80px;
+    color: rgba(255, 255, 255, 0.57);
+    background-color:rgb(0, 0, 0,.8);
+}
+.section2 h1{
+    text-transform: uppercase;
+    color: rgba(240, 248, 255, 0.743);
+}
+.pimg3{
+    background-image: url(image3.png);
+    min-height: 500px;
+}
+.text3{
+    padding-top:250px;
+    width: 100%;        
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+.bg3{
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    letter-spacing: 3px;
+    line-height: 60px;
+    border-radius: 5px;
+}
+.section3{
+    text-align: center;
+    padding: 50px 80px;
+    background-color: rgba(0, 0, 0, 0.849);
+    color: rgba(240, 248, 255, 0.76);
+}
+.section3 h1{
+    text-transform: uppercase;
+}
+.caption{
+    padding-top: 60px;
+    color: bisque;
+}
+.caption a{
+    color: aqua;
+    text-decoration: none;
+}
+.caption span{
+    color: red;
+    font-size: 25px;
+}
+/* responsiveness */
+@media (max-width:425px){
+    .section1, .section2, .section3{
+        padding: 25px 40px;
+    }
+}
